@@ -1,0 +1,18 @@
+# Linux
+
+```{r, fig.align = 'center',out.width= '20%', echo=FALSE }
+knitr::include_graphics(path = "figures/linux_beginner.png", auto_pdf = TRUE)
+```
+
+## Linux Video presentation
+
+```{r, echo=FALSE, warning=FALSE, }
+library("vembedr")
+embed_url("https://www.youtube.com/watch?v=PJ6rF57cSfM")
+```
+
+## Linux Book link
+
+After watching the video please follow the below link and read the book whilst following its instructions.
+
+[__Intro to Unix book__](http://www.cgr.liv.ac.uk/illum/CGRworkshops_2d2a70d27a9db718/Intro_to_Unix)
