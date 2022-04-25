@@ -8,7 +8,12 @@ knitr::include_graphics(path = "figures/nt_base_colours.png", auto_pdf = TRUE)
 
 ### Illumina Video presentation
 
-Coming soon
+```{r, echo=FALSE, warning=FALSE, }
+library("vembedr")
+embed_url("https://www.youtube.com/watch?v=2LSVw9H3Qjc")
+```
+
+[Slides](http://www.cgr.liv.ac.uk/illum/CGRworkshops_2d2a70d27a9db718/Intro_to_QC/Slides/QC_intro_to_workshop.pdf)
 
 ### Illumina Book link
 
@@ -22,9 +27,15 @@ After watching the video please follow the below link and read the book whilst f
 knitr::include_graphics(path = "figures/well.png", auto_pdf = TRUE)
 ```
 
+
 ### Long read Video presentation
 
-Coming soon
+```{r, echo=FALSE, warning=FALSE, }
+library("vembedr")
+embed_url("https://www.youtube.com/watch?v=KvJeaA7IKhc")
+```
+
+[Slides](http://www.cgr.liv.ac.uk/illum/CGRworkshops_2d2a70d27a9db718/Intro_to_QC/Slides/QC_intro_to_workshop.pdf)
 
 ### Long read Book link
 
