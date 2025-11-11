@@ -8,18 +8,18 @@ knitr::include_graphics(path = "figures/nt_base_colours.png", auto_pdf = TRUE)
 
 ### Illumina Video presentation
 
-```{r, echo=FALSE, warning=FALSE, }
-library("vembedr")
-embed_url("https://www.youtube.com/watch?v=2LSVw9H3Qjc")
-```
+<div class="container">
+<iframe src="https://www.youtube.com/embed/2LSVw9H3Qjc" 
+frameborder="0" allowfullscreen class="video"></iframe>
+</div>
 
-[Slides](http://www.cgr.liv.ac.uk/illum/CGRworkshops_2d2a70d27a9db718/Intro_to_QC/Slides/QC_intro_to_workshop.pdf)
+[Slides](https://docs.google.com/presentation/d/1Hl-7HFQRe_tPleMWpve_kDlVouRLSBfbxOEOS0pno9I/edit?usp=sharing)
 
 ### Illumina Book link
 
 After watching the video please follow the below link and read the book whilst following its instructions.
 
-[__Illumina QC book__](http://www.cgr.liv.ac.uk/illum/CGRworkshops_2d2a70d27a9db718/Intro_to_QC/Illumina_QC)
+[__Illumina QC book__](https://cgr-liverpool.github.io/QC_b92667/Illumina/)
 
 ## Long read QC
 
@@ -30,18 +30,18 @@ knitr::include_graphics(path = "figures/well.png", auto_pdf = TRUE)
 
 ### Long read Video presentation
 
-```{r, echo=FALSE, warning=FALSE, }
-library("vembedr")
-embed_url("https://www.youtube.com/watch?v=KvJeaA7IKhc")
-```
+<div class="container">
+<iframe src="https://www.youtube.com/embed/KvJeaA7IKhc" 
+frameborder="0" allowfullscreen class="video"></iframe>
+</div>
 
-[Slides](http://www.cgr.liv.ac.uk/illum/CGRworkshops_2d2a70d27a9db718/Intro_to_QC/Slides/QC_intro_to_workshop.pdf)
+[Slides](https://docs.google.com/presentation/d/1uY2fwO49Z8xPRT80X0hvXWgOYOq83Mtp2wtTX4uT63w/edit?usp=sharing)
 
 ### Long read Book link
 
 After watching the video please follow the below link and read the book whilst following its instructions.
 
-[__Long read QC book__](http://www.cgr.liv.ac.uk/illum/CGRworkshops_2d2a70d27a9db718/Intro_to_QC/Long_read_QC)
+[__Long read QC book__](https://cgr-liverpool.github.io/QC_b92667/Long_read)
 
 ## Post workshop
 

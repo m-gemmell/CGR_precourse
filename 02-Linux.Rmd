@@ -6,22 +6,22 @@ knitr::include_graphics(path = "figures/linux_beginner.png", auto_pdf = TRUE)
 
 ## Linux Video presentation
 
-```{r, echo=FALSE, warning=FALSE, }
-library("vembedr")
-embed_url("https://www.youtube.com/watch?v=PJ6rF57cSfM")
-```
+<div class="container">
+<iframe src="https://www.youtube.com/embed/PJ6rF57cSfM" 
+frameborder="0" allowfullscreen class="video"></iframe>
+</div>
 
-[Slides](http://www.cgr.liv.ac.uk/illum/CGRworkshops_2d2a70d27a9db718/Intro_to_Unix/Slides/Introduction%20to%20command%20line%20bioinformatics.pdf)
+[Slides](https://docs.google.com/presentation/d/1sSCgXzkUeAeir4m9IwbYmdtIpKEN5CTHi5Jhx7FP8t8/edit?usp=sharing)
 
 ## Linux Book link
 
 After watching the video please follow the below link and read the book whilst following its instructions.
 
-[__Intro to Unix book__](http://www.cgr.liv.ac.uk/illum/CGRworkshops_2d2a70d27a9db718/Intro_to_Unix)
+[__Intro to Unix book__](https://cgr-liverpool.github.io/Linux_5c4979/Course/)
 
 ## Post workshop
 
 If you want to try the tutorial without access to the VNC you will need to download the below zipped directory. This contains the files and will need to be uncompressed. Please note that when it in our environment the paths will be different than those stated in the bookdown.
 
-[Linux files](http://www.cgr.liv.ac.uk/illum/CGRworkshops_2d2a70d27a9db718/downloads/Linux.zip)
+[Linux files](https://neof-workshops.github.io/Unix_nxcdf7/Resources/Files/Linux.zip)
 

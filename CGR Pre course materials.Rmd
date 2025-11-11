@@ -10,12 +10,12 @@ biblio-style: apalike
 link-citations: yes
 favicon: figures/CGR_favicon.png
 description: CGR book for the Introduction to command line bioinformatics workshop
-cover-image: "figures/CGR_strips.png"
+cover-image: "figures/CGR_large.png"
 ---
 
-```{r, fig.align = 'center',out.width= '60%', echo=FALSE }
-knitr::include_graphics(path = "figures/CGR_large.png", auto_pdf = TRUE)
-```
+<center>
+![](figures/CGR_large.png){style="width:400px; border-radius:5px"}
+</center>
 
 # Introduction {#intro}
 
@@ -44,24 +44,24 @@ knitr::include_graphics(path = "figures/linux_beginner.png", auto_pdf = TRUE)
 
 ## Linux Video presentation
 
-```{r, echo=FALSE, warning=FALSE, }
-library("vembedr")
-embed_url("https://www.youtube.com/watch?v=PJ6rF57cSfM")
-```
+<div class="container">
+<iframe src="https://www.youtube.com/embed/PJ6rF57cSfM" 
+frameborder="0" allowfullscreen class="video"></iframe>
+</div>
 
-[Slides](http://www.cgr.liv.ac.uk/illum/CGRworkshops_2d2a70d27a9db718/Intro_to_Unix/Slides/Introduction%20to%20command%20line%20bioinformatics.pdf)
+[Slides](https://docs.google.com/presentation/d/1sSCgXzkUeAeir4m9IwbYmdtIpKEN5CTHi5Jhx7FP8t8/edit?usp=sharing)
 
 ## Linux Book link
 
 After watching the video please follow the below link and read the book whilst following its instructions.
 
-[__Intro to Unix book__](http://www.cgr.liv.ac.uk/illum/CGRworkshops_2d2a70d27a9db718/Intro_to_Unix)
+[__Intro to Unix book__](https://cgr-liverpool.github.io/Linux_5c4979/Course/)
 
 ## Post workshop
 
 If you want to try the tutorial without access to the VNC you will need to download the below zipped directory. This contains the files and will need to be uncompressed. Please note that when it in our environment the paths will be different than those stated in the bookdown.
 
-[Linux files](http://www.cgr.liv.ac.uk/illum/CGRworkshops_2d2a70d27a9db718/downloads/Linux.zip)
+[Linux files](https://neof-workshops.github.io/Unix_nxcdf7/Resources/Files/Linux.zip)
 
 
 <!--chapter:end:02-Linux.Rmd-->
@@ -76,18 +76,18 @@ knitr::include_graphics(path = "figures/nt_base_colours.png", auto_pdf = TRUE)
 
 ### Illumina Video presentation
 
-```{r, echo=FALSE, warning=FALSE, }
-library("vembedr")
-embed_url("https://www.youtube.com/watch?v=2LSVw9H3Qjc")
-```
+<div class="container">
+<iframe src="https://www.youtube.com/embed/2LSVw9H3Qjc" 
+frameborder="0" allowfullscreen class="video"></iframe>
+</div>
 
-[Slides](http://www.cgr.liv.ac.uk/illum/CGRworkshops_2d2a70d27a9db718/Intro_to_QC/Slides/QC_intro_to_workshop.pdf)
+[Slides](https://docs.google.com/presentation/d/1Hl-7HFQRe_tPleMWpve_kDlVouRLSBfbxOEOS0pno9I/edit?usp=sharing)
 
 ### Illumina Book link
 
 After watching the video please follow the below link and read the book whilst following its instructions.
 
-[__Illumina QC book__](http://www.cgr.liv.ac.uk/illum/CGRworkshops_2d2a70d27a9db718/Intro_to_QC/Illumina_QC)
+[__Illumina QC book__](https://cgr-liverpool.github.io/QC_b92667/Illumina/)
 
 ## Long read QC
 
@@ -98,18 +98,18 @@ knitr::include_graphics(path = "figures/well.png", auto_pdf = TRUE)
 
 ### Long read Video presentation
 
-```{r, echo=FALSE, warning=FALSE, }
-library("vembedr")
-embed_url("https://www.youtube.com/watch?v=KvJeaA7IKhc")
-```
+<div class="container">
+<iframe src="https://www.youtube.com/embed/KvJeaA7IKhc" 
+frameborder="0" allowfullscreen class="video"></iframe>
+</div>
 
-[Slides](http://www.cgr.liv.ac.uk/illum/CGRworkshops_2d2a70d27a9db718/Intro_to_QC/Slides/QC_intro_to_workshop.pdf)
+[Slides](https://docs.google.com/presentation/d/1uY2fwO49Z8xPRT80X0hvXWgOYOq83Mtp2wtTX4uT63w/edit?usp=sharing)
 
 ### Long read Book link
 
 After watching the video please follow the below link and read the book whilst following its instructions.
 
-[__Long read QC book__](http://www.cgr.liv.ac.uk/illum/CGRworkshops_2d2a70d27a9db718/Intro_to_QC/Long_read_QC)
+[__Long read QC book__](https://cgr-liverpool.github.io/QC_b92667/Long_read)
 
 ## Post workshop
 
